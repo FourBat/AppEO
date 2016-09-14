@@ -29,6 +29,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
         init();
+        checkLogin();//gewgewg
         checkLogin();
     }
 
