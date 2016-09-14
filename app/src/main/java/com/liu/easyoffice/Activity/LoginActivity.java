@@ -31,6 +31,7 @@ public class LoginActivity extends Activity {
         init();
         checkLogin();//gewgewg
         checkLogin();
+        checkLogin();
     }
 
     /**
