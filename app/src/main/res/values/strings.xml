@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">易工作</string>
+    <string name="bottom_rabtn_msg">消息</string>
+    <string name="bottom_rabtn_work">工作</string>
+    <string name="contacts">联系人</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="action_settings">设置</string>
+</resources>

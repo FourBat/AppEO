@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_alignParentBottom="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_border"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/bottom_rg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+       <RadioButton
+           android:id="@+id/rbtn_msg"
+           style="@style/bottom_rg"
+           android:text="@string/bottom_rabtn_msg"
+           android:drawableTop="@drawable/rbtn_chat"
+            />
+        <RadioButton
+            android:id="@+id/rbtn_work"
+            style="@style/bottom_rg"
+            android:text="@string/bottom_rabtn_work"
+            android:drawableTop="@drawable/rbtn_work"
+            />
+        <RadioButton
+            android:id="@+id/rbtn_contactor"
+            style="@style/bottom_rg"
+            android:text="@string/contacts"
+            android:drawableTop="@drawable/rbtn_my"
+             />
+    </RadioGroup>
+</RelativeLayout>
