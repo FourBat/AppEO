@@ -4,4 +4,9 @@
     android:layout_height="match_parent"
     android:background="@color/bottom_rbtn_text_click"
     >
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+    </ViewFlipper>
 </LinearLayout>
