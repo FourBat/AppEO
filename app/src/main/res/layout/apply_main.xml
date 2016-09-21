@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/work_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/Indigo_nav_color">
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <RadioButton
+                android:id="@+id/apply_rb_myApply"
+                android:drawableTop="@mipmap/apply_myapply"
+                style="@style/apply_main_rbtn"
+                android:text="我申请的"
+                />
+            <View
+                android:background="@color/bottom_rbtn_text_normal"
+                android:layout_width="2dp"
+                android:layout_height="130dp"/>
+            <RadioButton
+                android:id="@+id/apply_rb_receive"
+                android:drawableTop="@mipmap/apply_receive"
+                style="@style/apply_main_rbtn"
+                android:text="我审批的"
+                 />
+        </RadioGroup>
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/apply_grid"
+        style="@style/grid"></GridView>
+</LinearLayout>

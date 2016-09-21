@@ -1,7 +1,6 @@
 package com.liu.easyoffice.Activity;
 
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +9,7 @@ import android.widget.ListView;
 import android.widget.RadioGroup;
 
 import com.liu.easyoffice.Adapter.MyPagerAdapter;
+import com.liu.easyoffice.MyView.MyViewPager;
 import com.liu.easyoffice.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
     private ListView slideLv;
-    private ViewPager viewPager;
+    private MyViewPager viewPager;
     private RadioGroup bottomRg;
 
     @Override
@@ -45,17 +45,17 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId) {
                     case R.id.rbtn_msg:
-                        viewPager.setCurrentItem(0);
+                        viewPager.setCurrentItem(0, false);//false为禁止动画
                         break;
                     case R.id.rbtn_work:
-                        viewPager.setCurrentItem(1);
+                        viewPager.setCurrentItem(1, false);
                         break;
                     case R.id.rbtn_contactor:
-                        viewPager.setCurrentItem(2);
+                        viewPager.setCurrentItem(2, false);
                 }
             }
         });
-        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        viewPager.setOnPageChangeListener(new MyViewPager.OnPageChangeListener() {//滑动页面切换底部按钮
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
@@ -74,10 +74,8 @@ public class MainActivity extends AppCompatActivity {
                         bottomRg.check(R.id.rbtn_contactor);
                 }
             }
-
             @Override
             public void onPageScrollStateChanged(int state) {
-
             }
         });
     }
@@ -89,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         toolBar = ((Toolbar) findViewById(R.id.tl_custom));
         mDrawerLayout = ((DrawerLayout) findViewById(R.id.drawer));
         slideLv = ((ListView) findViewById(R.id.slide_lv));
-        viewPager = ((ViewPager) findViewById(R.id.body_view_pager));//viewPager控件
+        viewPager = ((MyViewPager) findViewById(R.id.body_view_pager));//viewPager控件
         bottomRg = ((RadioGroup) findViewById(R.id.bottom_rg));//底部radioGroup
     }
 }

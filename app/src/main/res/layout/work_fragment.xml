@@ -1,12 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Indigo_nav_color"
     >
-    <ViewFlipper
+    <com.liu.easyoffice.MyView.MyViewFlipper
+        android:flipInterval="2000"
+        android:inAnimation="@anim/ad_left_in"
+        android:outAnimation="@anim/ad_right_out"
+        android:id="@+id/work_flip"
         android:layout_width="match_parent"
+        android:layout_height="160dp">
+    </com.liu.easyoffice.MyView.MyViewFlipper>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_alignBottom="@id/work_flip"
+        android:layout_centerInParent="true"
+        android:id="@+id/work_rg"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+    </RadioGroup>
+    <include
 
-    </ViewFlipper>
-</LinearLayout>
+        layout="@layout/work_main"
+       />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        >
+        <ImageView
+            android:id="@+id/apply_list_item_iv"
+            android:src="@mipmap/emotion_003"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.liu.easyoffice.MyView.MyFontView
+            android:id="@+id/apply_list_item_title"
+            android:layout_toRightOf="@id/apply_list_item_iv"
+            android:text="哈哈哈"
+            android:textColor="@color/work_grid_icon_textColor"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.liu.easyoffice.MyView.MyFontView
+            android:id="@+id/apply_list_item_content"
+            android:textColor="@color/apply_text_unfinished"
+            android:layout_toRightOf="@id/apply_list_item_iv"
+            android:layout_alignBottom="@id/apply_list_item_iv"
+            android:text="呵呵"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.liu.easyoffice.MyView.MyFontView
+            android:id="@+id/apply_list_item_time"
+            android:layout_marginEnd="10dp"
+            android:textSize="10sp"
+            android:layout_alignParentEnd="true"
+            android:text="2012-01-03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
