@@ -9,5 +9,10 @@
 
     <color name="Indigo_colorPrimaryDark">#303f9f</color>
     <color name="Indigo_colorPrimary">#3f51b5</color>
-    <color name="Indigo_nav_color">#4675FF</color>
+    <color name="Indigo_nav_color">#008BED</color>
+
+    <color name="work_grid_icon_textColor">#000</color>
+    <color name="work_grid_bg">#ccc</color>
+    <color name="work_grid_item_bg">#fff</color>
+    <color name="apply_text_unfinished">#fa1c0c</color>
 </resources>

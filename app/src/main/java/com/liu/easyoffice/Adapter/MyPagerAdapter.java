@@ -3,6 +3,7 @@ package com.liu.easyoffice.Adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.view.View;
 
 import com.liu.easyoffice.Fragment.MsgFragment;
 import com.liu.easyoffice.Fragment.ContactsFragment;
@@ -19,8 +20,8 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
     public MyPagerAdapter(FragmentManager fm) {
         super(fm);
         fragmentList.add(new MsgFragment());
-        fragmentList.add(new ContactsFragment());
         fragmentList.add(new WorkFragment());
+        fragmentList.add(new ContactsFragment());
     }
     @Override
     public Fragment getItem(int position) {
@@ -31,4 +32,5 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return fragmentList.size();
     }
+
 }

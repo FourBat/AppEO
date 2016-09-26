@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/work_gridview_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/work_main_gridview_matop"
+    android:paddingBottom="@dimen/work_main_gridview_matop"
+    >
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/my_checked"
+        android:id="@+id/work_grid_item_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/work_grid_icon_textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/work_grid_item_tv_matop"
+        android:textSize="@dimen/work_grid_item_tv_textsize"
+        android:id="@+id/work_grid_item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/work_grid_item_iv"
+        android:text="钉钉"
+        />
+</RelativeLayout>

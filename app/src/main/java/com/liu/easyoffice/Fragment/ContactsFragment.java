@@ -19,4 +19,5 @@ public class ContactsFragment extends Fragment {
         View view=inflater.inflate(R.layout.contacts_fragment,null);
         return view;
     }
+
 }

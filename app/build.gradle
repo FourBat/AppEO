@@ -24,4 +24,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'org.xutils:xutils:3.3.36'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+
 }

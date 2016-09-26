@@ -23,7 +23,7 @@ public class LoginActivity extends Activity {
     private EditText userName;
     private EditText userPwd;
     private Button btnLogin;
-    private final static String URL="http://10.40.5.46:8080/Xutils/login";
+    private final static String URL="http://10.207.1.65:8080/Xutils/login";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
