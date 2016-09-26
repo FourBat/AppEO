@@ -15,4 +15,11 @@
     <color name="work_grid_bg">#ccc</color>
     <color name="work_grid_item_bg">#fff</color>
     <color name="apply_text_unfinished">#fa1c0c</color>
+
+    <!--选择好的联系人列表样式-->
+    <color name="choosed_contacts_bg">#F1EFEC</color>
+    <!--每个title的背景色-->
+    <color name="activity_main_title">#0195ff</color>
+    <!--每个title的字体颜色-->
+    <color name="activity_main_title_textColor">#e4e4e4</color>
 </resources>

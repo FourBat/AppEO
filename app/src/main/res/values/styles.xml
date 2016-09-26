@@ -69,4 +69,24 @@
         <item name="android:layout_centerInParent">true</item>
         <item name="android:textColor">@color/work_grid_item_bg</item>
     </style>
+    <!--每个页面的顶部-->
+    <style name="activity_main_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/choose_contacts_choosed_list_height</item>
+        <item name="android:background">@color/activity_main_title</item>
+    </style>
+    <style name="activity_main_title_back">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/back_marginLeft</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:src">@mipmap/back</item>
+    </style>
+    <style name="activity_main_title_title">
+        <item name="android:textColor">@color/activity_main_title_textColor</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/activity_main_title_textSize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>

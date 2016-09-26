@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        style="@style/activity_main_title"
+        >
+        <ImageView
+            android:id="@+id/add_friend_iv_back"
+            style="@style/activity_main_title_back"
+            >
+        </ImageView>
+        <TextView
+            android:text="@string/title_search_friend"
+            style="@style/activity_main_title_title"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:layout_marginLeft="@dimen/back_marginLeft"
+            android:src="@mipmap/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/add_friend_et_number"
+            android:hint="输入手机号"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/add_friend_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

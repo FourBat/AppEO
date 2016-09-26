@@ -26,11 +26,11 @@ import java.util.Map;
 public class MyApplyActivity extends Activity {
     public final String TAG = "MyApply";
     private ListView myApplyLv;
-        public final static String MYAPPLY_URL="http://10.40.5.50:8080/Xutils/myapply";
-//    public final static String MYAPPLY_URL = "http://192.168.99.202:8080/Xutils/myapply";
+    public final static String MYAPPLY_URL = "http://10.40.5.50:8080/Xutils/myapply";
     private List<Apply> applies = new ArrayList<>();
     private SimpleAdapter simpleAdapter;
     List<Map<String, Object>> list = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
