@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\workspace\andriod\Gaobo\EasyOffice\IMkit\src\main\assets"/><source path="E:\workspace\andriod\Gaobo\EasyOffice\IMkit\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\workspace\andriod\Gaobo\EasyOffice\IMkit\src\release\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Download_android_project\AppEO-yong\AppEO\IMkit\src\main\assets"/><source path="D:\Download_android_project\AppEO-yong\AppEO\IMkit\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\Download_android_project\AppEO-yong\AppEO\IMkit\src\release\assets"/></dataSet></merger>
