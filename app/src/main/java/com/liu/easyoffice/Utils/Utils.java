@@ -19,5 +19,7 @@ public class Utils {
 
     public static final String GET_GROUPS=XUTIL_URL+"getcurrentgroup";
 
+    public static final String TEST = "test";
+
 
 }
