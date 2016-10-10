@@ -84,24 +84,24 @@
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_conversation_newmsg.png"
     },
     {
-        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ac_sd_card_icon.png",
-        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ac_sd_card_icon.png"
-    },
-    {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_notice_point.png",
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_notice_point.png"
+    },
+    {
+        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ac_sd_card_icon.png",
+        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ac_sd_card_icon.png"
     },
     {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_menu_keyboard.png",
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_menu_keyboard.png"
     },
     {
-        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f6b2.png",
-        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f6b2.png"
-    },
-    {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_indicator.png",
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_indicator.png"
+    },
+    {
+        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f6b2.png",
+        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f6b2.png"
     },
     {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_bg_text_normal.9.png",
@@ -120,12 +120,12 @@
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f618.png"
     },
     {
-        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_bg_text_hover.9.png",
-        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_bg_text_hover.9.png"
-    },
-    {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_loading.png",
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_loading.png"
+    },
+    {
+        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_bg_text_hover.9.png",
+        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_bg_text_hover.9.png"
     },
     {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f004.png",
@@ -144,12 +144,12 @@
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u26bd.png"
     },
     {
-        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_notification_network_available.png",
-        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_notification_network_available.png"
-    },
-    {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_group_ok_normal.png",
         "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_group_ok_normal.png"
+    },
+    {
+        "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_notification_network_available.png",
+        "source": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_notification_network_available.png"
     },
     {
         "merged": "E:\\workspace\\andriod\\Gaobo\\EasyOffice\\IMkit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f44e.png",
