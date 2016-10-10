@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.liu.easyoffice">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:name=".Application.MyApplication"
         android:allowBackup="true"
@@ -11,17 +13,40 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activity.MainActivity">
+            <data
+                android:host="com.liu.easyoffice"
+                android:pathPrefix="/conversationlist"
+                android:scheme="rong" />
+        </activity>
+        <activity android:name=".Activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.LoginActivity">
-        </activity>
-        <activity android:name=".Activity.ApplyAcitity">
+        <activity android:name=".Activity.ApplyAcitity" />
+        <activity android:name=".Activity.MyApplyActivity" />
+        <activity android:name=".Activity.ConversationActivity">
+            android:name="io.rong.fast.activity.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.liu.easyoffice"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
         </activity>
-        <activity android:name=".Activity.MyApplyActivity"></activity>
+        <activity android:name=".Activity.ContactMsgActivity" />
+        <activity android:name=".Activity.CreateGroup" />
+        <activity android:name=".Activity.AddFriendActivity" />
+        <activity android:name=".Activity.NewFriend" />
+        <activity android:name=".Activity.ShowMemberActivity"></activity>
     </application>
 
 </manifest>

@@ -11,4 +11,8 @@
     <dimen name="work_title_textSize">24sp</dimen>
 
     <dimen name="work_title_height">50dp</dimen>
+
+    <dimen name="choose_contacts_choosed_list_height">70dp</dimen>
+    <dimen name="back_marginLeft">12dp</dimen>
+    <dimen name="activity_main_title_textSize">24sp</dimen>
 </resources>

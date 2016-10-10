@@ -17,20 +17,28 @@ import java.util.List;
  */
 public class MyPagerAdapter extends FragmentPagerAdapter {
     private List<Fragment> fragmentList=new ArrayList<>();
+    MsgFragment msgFragment=MsgFragment.getInstance();
+    WorkFragment workFragment=WorkFragment.getInstance();
+    ContactsFragment contactsFragment=ContactsFragment.getInstance();
     public MyPagerAdapter(FragmentManager fm) {
         super(fm);
-        fragmentList.add(new MsgFragment());
-        fragmentList.add(new WorkFragment());
-        fragmentList.add(new ContactsFragment());
     }
     @Override
     public Fragment getItem(int position) {
-        return fragmentList.get(position);
+        switch (position){
+            case 0:
+                return msgFragment;
+            case 1:
+                return workFragment;
+            case 2:
+                return contactsFragment;
+        }
+      return null;
     }
 
     @Override
     public int getCount() {
-        return fragmentList.size();
+        return 3;
     }
 
 }

@@ -11,7 +11,23 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+
         >
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/slide_user_img"
+            android:src="@mipmap/emotion_003"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:id="@+id/slide_user_name"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="34sp"
+            android:layout_below="@id/slide_user_img"
+            android:text="刘菲炫"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </RelativeLayout>
     <ListView
         android:id="@+id/slide_lv"

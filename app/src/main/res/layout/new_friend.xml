@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_friend"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liu.easyoffice.Activity.NewFriend">
+    <RelativeLayout
+        style="@style/activity_main_title">
+        <ImageView
+            style="@style/activity_main_title_back" />
+        <TextView
+            android:text="新的朋友"
+            style="@style/activity_main_title_title"
+             />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/new_friend_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

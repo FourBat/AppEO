@@ -3,7 +3,9 @@ package com.liu.easyoffice.Activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.view.View;
+import android.view.ViewParent;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.RadioButton;
@@ -22,7 +24,6 @@ import java.util.Map;
  */
 public class ApplyAcitity extends Activity implements View.OnClickListener{
     private GridView applyGv;
-
     private int[] icons={R.mipmap.icon_qiandao,R.mipmap.icon_rizhi,R.mipmap.icon_shenpi,R.mipmap.icon_team_manager};
     private String[] names={"请假","报销","出差","补签"};
     private ImageView applyIvBack;

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_member"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_main_title_textColor"
+    tools:context="com.liu.easyoffice.Activity.ShowMemberActivity">
+    <RelativeLayout
+        style="@style/activity_main_title"
+        >
+        <ImageView
+            android:src="@mipmap/back"
+            style="@style/activity_main_title_back"
+            />
+        <TextView
+            android:id="@+id/show_member_tv_cname"
+            android:text="刘氏集团"
+            style="@style/activity_main_title_title"
+             />
+    </RelativeLayout>
+    <ListView
+        android:background="@color/rc_ad_file_list_select_file_text_state"
+        android:id="@+id/show_member_lv_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    <ListView
+        android:background="@color/rc_ad_file_list_select_file_text_state"
+        android:layout_marginTop="30dp"
+        android:id="@+id/show_member_lv_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

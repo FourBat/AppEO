@@ -27,6 +27,14 @@ import java.util.Map;
  * Created by hui on 2016/9/14.
  */
 public class WorkFragment extends Fragment {
+    private static WorkFragment instance=null;
+    public  static WorkFragment getInstance(){
+        if (instance!=null){
+            return instance;
+        }else {
+            return new WorkFragment();
+        }
+    }
     private MyViewFlipper workFlipper;
     private RadioGroup workRg;
     private GridView gridView;
