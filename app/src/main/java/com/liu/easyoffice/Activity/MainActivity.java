@@ -145,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
         RongIM.getInstance().refreshUserInfoCache(new UserInfo(userId, name, Uri.parse(portraitUri)));//设置头像
         x.image().bind(userImg, portraitUri);
     }
-
     /**
      * 融云连接
      */
@@ -160,15 +159,6 @@ public class MainActivity extends AppCompatActivity {
             public void onSuccess(String s) {
                 Log.e("main", s);
                 Toast.makeText(getApplicationContext(), "登陆成功！", LENGTH_SHORT).show();
-
-//                RongIMClient.setOnReceiveMessageListener(new RongIMClient.OnReceiveMessageListener() {
-//                    @Override
-//                    public boolean onReceived(Message message, int i) {
-//                        Toast.makeText(MainActivity.this,message.getTargetId(),Toast.LENGTH_SHORT).show();
-//                        return false;
-//                    }
-//                });
-
             }
 
             @Override

@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.ApplyAcitity"></activity>
+        <activity android:name=".Activity.ApplyAcitity" />
         <activity android:name=".Activity.MyApplyActivity" />
         <activity android:name=".Activity.ConversationActivity">
             android:name="io.rong.fast.activity.ConversationActivity"
@@ -42,10 +42,11 @@
                     android:scheme="rong" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.ContactMsgActivity"></activity>
+        <activity android:name=".Activity.ContactMsgActivity" />
         <activity android:name=".Activity.CreateGroup" />
         <activity android:name=".Activity.AddFriendActivity" />
-        <activity android:name=".Activity.NewFriend"></activity>
+        <activity android:name=".Activity.NewFriend" />
+        <activity android:name=".Activity.ShowMemberActivity"></activity>
     </application>
 
 </manifest>
