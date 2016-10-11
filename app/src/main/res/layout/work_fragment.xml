@@ -19,7 +19,6 @@
         android:layout_height="wrap_content">
     </RadioGroup>
     <include
-
         layout="@layout/work_main"
        />
 </RelativeLayout>

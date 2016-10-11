@@ -32,9 +32,6 @@ import io.rong.push.RongPushClient;
  */
 public class MsgFragment extends Fragment {
     private static MsgFragment instance=null;
-    private Button btnChat;
-    private Button startChat;
-
     public  static MsgFragment getInstance(){
 
         if (instance!=null){
@@ -47,7 +44,7 @@ public class MsgFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.msg_fragment,null);
-        init(view);
+
         ConversationListFragment fragment= (ConversationListFragment) getChildFragmentManager().findFragmentById(R.id.conversationlist);
         Uri uri = Uri.parse("rong://" + getActivity().getApplicationInfo().packageName).buildUpon()
                 .appendPath("conversationlist")
@@ -60,38 +57,5 @@ public class MsgFragment extends Fragment {
         fragment.setUri(uri);
         return view;
     }
-    private void init(View view){
-        startChat = ((Button) view.findViewById(R.id.startChat));
-        startChat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ContactNotificationMessage contact = ContactNotificationMessage.obtain(ContactNotificationMessage.CONTACT_OPERATION_REQUEST,"1","2","hhh");
-                contact.setExtra("I'm Bob");
 
-                RongIMClient.getInstance().sendMessage(Conversation.ConversationType.SYSTEM, "2", contact, "hah", null, new RongIMClient.SendMessageCallback() {
-                    @Override
-                    public void onError(Integer integer, RongIMClient.ErrorCode errorCode) {
-                        Log.e("add", "失败" + errorCode.getMessage());
-                    }
-
-                    @Override
-                    public void onSuccess(Integer integer) {
-                        Log.e("add", "成功" + integer.toString());
-                    }
-                }, new RongIMClient.ResultCallback<Message>() {
-                    @Override
-                    public void onSuccess(Message message) {
-                        Log.e("add","result-su"+message.toString());
-                    }
-
-                    @Override
-                    public void onError(RongIMClient.ErrorCode errorCode) {
-                        Log.e("add","result"+errorCode.toString());
-                    }
-                });
-
-
-            }
-        });
-    }
 }

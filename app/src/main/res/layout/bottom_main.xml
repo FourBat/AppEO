@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:background="@drawable/bottom_border"
     android:layout_height="match_parent">
-
     <RadioGroup
+
         android:id="@+id/bottom_rg"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
        <RadioButton
            android:id="@+id/rbtn_msg"
